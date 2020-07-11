@@ -10,6 +10,16 @@ TorDDos is a Python tool to automatize DDos attacks to a website from the Tor ne
 <p align="center"><img src="https://github.com/R3nt0n/torDDos/blob/master/img/torddos.png" /></p>
 
 
+## Usage
+```
+
+  -h, --help        show this help message and exit
+  -t , --target     server to kick-out
+  -n , --attempts   number of attempts of attack (default: 5)
+
+```
+
+
 ## How it works
 + Creates a new Tor session.
 + Makes a request to the website you choose as a target.
@@ -21,16 +31,6 @@ TorDDos is a Python tool to automatize DDos attacks to a website from the Tor ne
 + Python 2.7
 + Tor service
 + requests
-
-
-## Usage
-```
-
-  -h, --help        show this help message and exit
-  -t , --target     server to kick-out
-  -n , --attempts   number of attempts of attack (default: 5)
-
-```
 
 
 ## Legal disclaimer
